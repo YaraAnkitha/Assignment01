@@ -1,0 +1,178 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMhLR2HOfKK3C2Z03LcVUUt",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/YaraAnkitha/Assignment01/blob/main/Assignment13\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "hle9ePD2AEuw"
+      },
+      "outputs": [],
+      "source": [
+        "1.What advantages do Excel spreadsheets have over CSV spreadsheets?"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "A.Thus, CSV consumes less file size when the user is importing data"
+      ],
+      "metadata": {
+        "id": "tcvJTM6oAPQe"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "2.What do you pass to csv.reader() and csv.writer() to create reader and writer objects?"
+      ],
+      "metadata": {
+        "id": "vmsoXU48Aez8"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "A.First, call open() and pass it 'w' to open a file in write mode . This will create the object you can then pass to csv. writer() to create a Writer object."
+      ],
+      "metadata": {
+        "id": "JxAD1eQpAjoU"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "3. What modes do File objects for reader and writer objects need to be opened in?"
+      ],
+      "metadata": {
+        "id": "y92lIUNnAvnA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "A. 'r'-Open a file for reading\n",
+        "   'w'-Open a file for writing. Creates a new file if it does not exist or truncates the file if it exists.\n",
+        "   'x'-Open a file for exclusive creation. If the file already exists, the operation fails."
+      ],
+      "metadata": {
+        "id": "tRn6Fk2zAzPb"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "4. What method takes a list argument and writes it to a CSV file?"
+      ],
+      "metadata": {
+        "id": "NggIJ30JBL9n"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "A.The most common method to write data from a list to CSV file is the writerow()."
+      ],
+      "metadata": {
+        "id": "pTGDf0iWBPf1"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5. What do the keyword arguments delimiter and line terminator do?"
+      ],
+      "metadata": {
+        "id": "_R4CdC0ABYav"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "   A. changes the delimiter and line terminator characters in your file."
+      ],
+      "metadata": {
+        "id": "nV69fF8GBb43"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "6. What function takes a string of JSON data and returns a Python data structure?"
+      ],
+      "metadata": {
+        "id": "c9HoenJnBjTi"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "A.We use the json. loads() method to parse a JSON string and return a Python object such as a dictionary."
+      ],
+      "metadata": {
+        "id": "pRXuMOERBxlh"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "7. What function takes a Python data structure and returns a string of JSON data?"
+      ],
+      "metadata": {
+        "id": "c2y6z2jOB6XL"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "A.dumps() can be used for converting a Python object into a JSON string."
+      ],
+      "metadata": {
+        "id": "fIJTeMpvB9vI"
+      }
+    }
+  ]
+}
